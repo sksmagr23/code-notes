@@ -5,6 +5,7 @@
 **Root Node:** Topmost node; entry point to the tree.
 **Children:** Nodes directly connected to a parent node.
 **Leaf Node:** Node with no children (terminal node).
+**Sibling:** Nodes having the same parent.
 **Ancestor:** Any node on the path from a node to the root.
 
 ## Types of Binary Trees
@@ -14,6 +15,13 @@
 **Perfect Binary Tree:** All internal nodes have 2 children, all leaves at same level, all levels fully filled.
 **Balanced Binary Tree:** Heights of left/right subtrees of any node differ by at most 1; height ≈ log₂N.
 **Degenerate Tree:** Each parent has only one child; tree becomes a linear chain (like a linked list).
+
+## Key Properties
+
+- Maximum number of nodes at level L (root at level 0) = 2^L.
+- Maximum number of nodes in a binary tree of height H (height measured in edges) = 2^(H+1) - 1.
+- Minimum height of a tree with N nodes is approximately log2(N).
+- A completely skewed/degenerate tree can have height N-1.
 
 ## Binary Tree in Cpp
 
@@ -304,7 +312,7 @@ vector<vector<int>> preInPostTraversal(Node* root) {
 
 ### MaxDepth/height of Binary tree O(N)
 
-- we can use BFS(level order) but recursion suits as it can give ~ O(H)
+- we can use BFS(level order) but recursion suits as it can give ~ O(H) as stack space and O(N) time complexity.
 
 ```cpp
 int maxDepth(TreeNode* root) {
