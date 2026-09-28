@@ -33,6 +33,8 @@ A collection of data structures & algorithms reference notes, implementations, a
 * [DP on Stocks](DP/stocks.md)
 * [DP on LIS](DP/lis.md)
 * [Advanced DP (MCM, Trees, Bitmask)](DP/advanced.md)
+* [Digit DP](DP/digitdp.md)
+* [Bitmask DP](DP/bitmaskdp.md)
 {: .topic-index}
 
 ## Additional Topics
