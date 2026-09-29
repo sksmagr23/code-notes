@@ -40,4 +40,5 @@ A collection of data structures & algorithms reference notes, implementations, a
 ## Additional Topics
 * [SQL Study Guide](SQL/sql.md)
 * [OS Study Guide](OS/os.md)
+* [Miscellaneous OA questions](miscellaneous/oa.md)
 {: .topic-index}
